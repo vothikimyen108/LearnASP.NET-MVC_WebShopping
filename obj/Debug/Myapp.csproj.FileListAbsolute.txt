@@ -156,3 +156,10 @@ D:\Visul2019\Myapp\obj\Debug\Myapp.csproj.CoreCompileInputs.cache
 D:\Visul2019\Myapp\obj\Debug\Myapp.csproj.CopyComplete
 D:\Visul2019\Myapp\obj\Debug\Myapp.dll
 D:\Visul2019\Myapp\obj\Debug\Myapp.pdb
+C:\Users\ASUS\source\repos\Myapp\bin\EntityFramework.dll
+C:\Users\ASUS\source\repos\Myapp\bin\EntityFramework.SqlServer.dll
+C:\Users\ASUS\source\repos\Myapp\bin\sql.dll
+C:\Users\ASUS\source\repos\Myapp\bin\sql.pdb
+C:\Users\ASUS\source\repos\Myapp\bin\sql.dll.config
+C:\Users\ASUS\source\repos\Myapp\bin\EntityFramework.xml
+C:\Users\ASUS\source\repos\Myapp\bin\EntityFramework.SqlServer.xml

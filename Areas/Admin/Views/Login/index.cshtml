@@ -1,0 +1,32 @@
+﻿
+@{
+    Layout = null;
+
+}
+@model Myapp.Areas.Admin.Models.LoginModel
+<head>
+    <link rel="stylesheet" href="~/Assets/Login/css.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Sign in</title>
+</head>
+
+<body>
+    <div class="main">
+        <p class="sign" align="center">Sign in</p>
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true, null, new { @class = "un ", @color= "red" })
+            @Html.TextBoxFor(model => model.UserName, new { @class = "un ", @type = "text", @align = "center", @placeholder = "Username" })
+            @Html.TextBoxFor(model => model.Password, new { @class = "un ", @type = "text", @align = "center", @placeholder = "Password"})
+            <button type="submit">login</button>
+        }
+
+    </div>
+
+</body>
+
+</html>
+
